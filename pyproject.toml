@@ -1,0 +1,17 @@
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+include_trailing_comma = true
+exclude = '''
+(
+    \.eggs
+  | \.git
+  | build
+  | dist
+  | venv
+  | docs
+)
+'''
+[tool.ruff]
+line-length = 88
+ignore = ["E203"]
