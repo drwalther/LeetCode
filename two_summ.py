@@ -1,3 +1,5 @@
+# На вход подается список цисел и искомое число.
+# Нужно вернуть индексы двух чисел в списке, которые в сумме дают искомое число
 class Solution(object):
     def two_sum(self, nums: list[int], target: int) -> list[int]:
         dict_nums = {}
